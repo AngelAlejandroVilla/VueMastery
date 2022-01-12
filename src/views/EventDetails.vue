@@ -9,10 +9,10 @@
 <script>
 import EventService from '@/services/EventService.js'
 export default {
-  props:['id'],
+  props: ['id'],
   data() {
     return {
-      event: null,
+      event: null
     }
   },
   created() {
